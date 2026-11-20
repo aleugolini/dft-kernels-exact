@@ -1,0 +1,11 @@
+# F5, G=10, prime-length reduction: certificates written on nettunio (Intel Xeon, nice 19), 2026-11-10
+$ python3 exact_small.py dft5 10 --sym2 --show 0 --cert dft5_G10_sym2.jsonl.gz
+dft5, at most 10 gates, over Q(omega)-bar, sym2=True, split=(0, 1): {'dfs': 497643, 'gb': 12947750, 'leaves': 0, 'sec': 12339.5, 'restarts': 524}
+per depth (gate: moves, Groebner tests, rejected): 1: 1, 0, 0; 2: 15, 0, 0; 3: 210, 0, 0; 4: 3323, 75, 0; 5: 67448, 6815, 2550; 6: 641895, 375720, 212700; 7: 12565140, 12565140, 12565140
+RESULT: no circuit -> L > 10
+gen maxrss=47464KB elapsed=12340.47s
+# the file was split into 3 parts of 4,260,130 lines (dft5_G10_sym2.part{0,1,2}.jsonl.gz; concatenated content identical, md5 c8c64057a54dcbeeb03aa971da7eb8a0)
+$ python3 check_certificates.py dft5 10 dft5_G10_sym2.jsonl.gz --sym2 --stream
+dft5, at most 10 gates, over Q(omega), sym2=True: {'nodes': 497643, 'target_moves': 12947750, 'certified': 12780390, 'leaves': 0}; certificates in file: 12780390, unused: 0
+RESULT: all branches certified -> L > 10
+check maxrss=13868KB elapsed=19322.08s

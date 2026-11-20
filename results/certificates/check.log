@@ -1,0 +1,15 @@
+$ python3 check_certificates.py dft3 4 ../results/certificates/dft3_G4.jsonl.gz
+dft3, at most 4 gates, over Q(omega), sym2=False: {'nodes': 13, 'target_moves': 90, 'certified': 81, 'leaves': 0}; certificates in file: 81, unused: 0
+RESULT: all branches certified -> L > 4
+$ python3 check_certificates.py wht4 6 ../results/certificates/wht4_G6.jsonl.gz
+wht4, at most 6 gates, over Q, sym2=False: {'nodes': 190, 'target_moves': 2854, 'certified': 2716, 'leaves': 0}; certificates in file: 2716, unused: 0
+RESULT: all branches certified -> L > 6
+$ python3 check_certificates.py dft4 7 ../results/certificates/dft4_G7.jsonl.gz
+dft4, at most 7 gates, over Q(omega), sym2=False: {'nodes': 6172, 'target_moves': 118307, 'certified': 114603, 'leaves': 0}; certificates in file: 114603, unused: 0
+RESULT: all branches certified -> L > 7
+$ python3 check_certificates.py dft4 6 ../results/certificates/dft4_G6_char5.jsonl.gz --char 5 --omega 2
+dft4, at most 6 gates, over F_5 (omega=2), sym2=False: {'nodes': 138, 'target_moves': 1769, 'certified': 1683, 'leaves': 0}; certificates in file: 1683, unused: 0
+RESULT: all branches certified -> L > 6
+$ python3 check_certificates.py dft5 9 ../results/certificates/dft5_G9_sym2.jsonl.gz --sym2
+dft5, at most 9 gates, over Q(omega), sym2=True: {'nodes': 10515, 'target_moves': 219590, 'certified': 215250, 'leaves': 0}; certificates in file: 215250, unused: 0
+RESULT: all branches certified -> L > 9

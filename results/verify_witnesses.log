@@ -1,0 +1,8 @@
+F3: 5 gates over Q(omega), omega^2+omega+1=0: outputs OK
+F5 (Lev 1980): 15 gates over Q(omega), Phi_5(omega)=0: outputs OK
+F5 (Winograd 1978): 17 gates over Q(omega), Phi_5(omega)=0: outputs OK
+H4: 7 gates over Q: outputs OK
+F4 (char 5): 7 gates over F_5: outputs OK; multipliers are powers of omega: True; IFN edges 14 + 2 reused outputs + 3 input relays = 19 (FFT: 16)
+F5 (char 11): 14 gates over F_11: outputs OK
+F8 (char 3): 23 gates over F_9 = F_3[i]: outputs OK; multipliers are powers of omega: True; IFN edges 46 + 2 reused outputs + 0 input relays = 48 (FFT: 48)
+ALL OK

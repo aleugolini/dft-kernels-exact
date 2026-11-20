@@ -1,0 +1,2 @@
+dft5, at most 11 gates, over Q(omega)-bar, sym2=True, split=(30, 48): {'dfs': 1089755, 'gb': 50492256, 'leaves': 0, 'sec': 17553.3, 'restarts': 1032}
+RESULT: no circuit -> L > 11

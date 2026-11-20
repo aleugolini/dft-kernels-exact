@@ -1,0 +1,12 @@
+$ python3 exact_small.py dft4 7 --char 5 --omega 2
+manifest: {"argv": ["dft4", "7", "--char", "5", "--omega", "2"], "python": "3.12.7", "restart_every": 50000, "singular": "Singular", "singular_version": "44105", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 3}
+dft4, at most 7 gates, over F_5-bar (omega=2), sym2=False, split=(0, 1): {'dfs': 6284, 'gb': 120147, 'leaves': 16, 'sec': 5.6, 'cpu': 5.7, 'restarts': 2}
+per depth (gate: moves, Groebner tests, rejected): 1: 6, 0, 0; 2: 45, 0, 0; 3: 488, 60, 0; 4: 3862, 2602, 1144; 5: 51373, 50645, 48459; 6: 65000, 65000, 64904; 7: 1840, 1840, 1824
+RESULT: circuits exist
+wiring: [('W', None, (0, 2)), ('W', None, (1, 4)), ('T', 0, (3, 5)), ('T', 2, (4, 6)), ('W', None, (5, 7)), ('T', 1, (2, 8)), ('T', 3, (0, 8))]
+  GB: b3-1, b2+1, b1+1, b0-1, a3-2, a2-2, a1+2, a0-1, t3+2, t2-1, t1-1
+wiring: [('W', None, (0, 2)), ('W', None, (1, 4)), ('T', 1, (3, 5)), ('T', 3, (4, 6)), ('W', None, (5, 7)), ('T', 0, (0, 8)), ('T', 2, (2, 8))]
+  GB: b3+1, b2+2, b1-2, b0-2, a3-2, a2-2, a1+2, a0-2, t3+1, t2+2, t1+1
+wiring: [('W', None, (0, 2)), ('W', None, (1, 4)), ('T', 2, (3, 5)), ('T', 0, (4, 6)), ('W', None, (5, 7)), ('T', 1, (0, 8)), ('T', 3, (2, 8))]
+  GB: b3-1, b2+1, b1+1, b0+1, a3+2, a2+1, a1-2, a0-2, t3-2, t2+1, t1-1
+

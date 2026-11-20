@@ -1,0 +1,17 @@
+directory: exact_dft5_G12
+parts complete: 2048/2048
+search nodes (dfs):       2,114,039,138   $2\,114\,039\,138$
+Groebner bases:         110,596,909,584   $110\,596\,909\,584$
+leaves:                               0
+Singular restarts:            2,254,189   $2\,254\,189$
+search time:                    7,020.4 h (sum of 'sec' over parts, elapsed)
+  per part:          1.81 to 8.11 h, mean 3.43 h
+elapsed (/usr/bin/time): 7,021.0 h summed over 2048 parts; max resident memory 111 MB
+CPU models (Slurm jobs): AMD EPYC 7282 16-Core (30); Intel Xeon E7-8880 v4 (8); Intel Xeon Gold 6140 (18); Intel Xeon Gold 6252N (9)
+per depth (gate: moves, Groebner tests, rejected), summed over parts:
+  1: 2048, 0, 0; 2: 30720, 0, 0; 3: 430080, 0, 0; 4: 6713344, 61440, 0; 5: 125704192, 4845568, 1351680; 6: 1432254, 121668, 56460; 7: 41677695, 5658764, 3374160; 8: 660675556, 267070816, 179331173; 9: 11115975985, 10638594847, 9657364988; 10: 99471788958, 99471788958, 99468915281; 11: 208767523, 208767523, 208767523
+
+LaTeX placeholders:
+  Table I, Groebner bases:  $110\,596\,909\,584$
+  elapsed hours (rounded\, no CPU time in these logs): $7\,000$
+  run record: $2\,114\,039\,138$ search nodes, $110\,596\,909\,584$ Groebner bases, $2\,254\,189$ restarts, 7,020 hours elapsed

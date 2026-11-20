@@ -1,0 +1,7 @@
+progress: 1800 s, ~21.8% of this part, gb=10277283, path=1/1 4/15 5/18 18/21
+progress: 3600 s, ~43.6% of this part, gb=21513118, path=1/1 7/15 9/15 1/14
+progress: 5400 s, ~70.3% of this part, gb=32688722, path=1/1 11/15 7/11 2/14
+dft5, at most 12 gates, over Q(omega)-bar, sym2=True, split=(876, 2048), galois=True: {'dfs': 833561, 'gb': 42153160, 'leaves': 0, 'sec': 6945.4, 'restarts': 860}
+per depth (gate: moves, Groebner tests, rejected): 1: 1, 0, 0; 2: 15, 0, 0; 3: 210, 0, 0; 4: 3278, 30, 0; 5: 61379, 2366, 660; 6: 699, 52, 31; 7: 18600, 2334, 1156; 8: 291430, 121233, 79511; 9: 4743045, 4593753, 4204041; 10: 37409001, 37409001, 37408699; 11: 24391, 24391, 24391
+RESULT: no circuit -> L > 12
+part 876 maxrss=93244KB elapsed=6947.71s

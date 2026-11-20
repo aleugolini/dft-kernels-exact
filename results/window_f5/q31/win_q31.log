@@ -1,0 +1,1045 @@
+GF(31) N=5 omega=2; starting circuits ['Lev 15', 'Winograd 17']; DMAX=5 SMAX=10
+  Lev 15: 393 new window problems
+  Winograd 17: 393 new window problems
+*** IMPROVEMENT in Winograd 17: window 3 gates, d=2, targets=[(1, 13), (1, 19)]
+r=2 p=31 kind=file:/tmp/tmpx1fs1808.txt omega=0 points=32 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=2): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 4 gates, d=3, targets=[(1, 30, 13), (1, 30, 19)]
+r=3 p=31 kind=file:/tmp/tmp4knhk_vs.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=3): FOUND  nodes=2  0.0s
+  W: (1,30,0)
+
+*** IMPROVEMENT in Winograd 17: window 4 gates, d=3, targets=[(1, 30, 12), (1, 30, 18)]
+r=3 p=31 kind=file:/tmp/tmpwo2sil5o.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=3): FOUND  nodes=2  0.0s
+  W: (1,30,0)
+
+*** IMPROVEMENT in Winograd 17: window 4 gates, d=3, targets=[(1, 13, 0), (1, 13, 22), (1, 19, 0)]
+r=3 p=31 kind=file:/tmp/tmpthsmbni9.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=3): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 4 gates, d=3, targets=[(1, 13, 0), (1, 13, 9), (1, 19, 0)]
+r=3 p=31 kind=file:/tmp/tmptqdqjh_4.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=3): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 4 gates, d=3, targets=[(1, 13, 0), (1, 19, 0), (1, 19, 15)]
+r=3 p=31 kind=file:/tmp/tmpjip3al4t.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=3): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 4 gates, d=3, targets=[(1, 13, 0), (1, 19, 0), (1, 19, 16)]
+r=3 p=31 kind=file:/tmp/tmpik1s6_oq.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=3): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 13, 0), (1, 30, 13, 22), (1, 30, 19, 0)]
+r=4 p=31 kind=file:/tmp/tmphacpftwy.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 13, 0), (1, 30, 13, 9), (1, 30, 19, 0)]
+r=4 p=31 kind=file:/tmp/tmp4plxx4pq.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 13, 18), (1, 30, 19, 12)]
+r=4 p=31 kind=file:/tmp/tmpk1j63ytp.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=4): FOUND  nodes=32  0.0s
+  W: (1,30,0,0) (1,30,13,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 13, 0), (1, 30, 19, 0), (1, 30, 19, 15)]
+r=4 p=31 kind=file:/tmp/tmpql41lgy8.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 13, 0), (1, 30, 19, 0), (1, 30, 19, 16)]
+r=4 p=31 kind=file:/tmp/tmpomhdp7ff.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 12, 0), (1, 30, 18, 0), (1, 30, 18, 22)]
+r=4 p=31 kind=file:/tmp/tmpl8uhwxr2.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 12, 0), (1, 30, 18, 0), (1, 30, 18, 9)]
+r=4 p=31 kind=file:/tmp/tmpskcczxnp.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 12, 0), (1, 30, 12, 16), (1, 30, 18, 0)]
+r=4 p=31 kind=file:/tmp/tmpi2vhvr71.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 30, 12, 0), (1, 30, 12, 15), (1, 30, 18, 0)]
+r=4 p=31 kind=file:/tmp/tmp0nopz41r.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,30,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 22, 2), (1, 19, 0, 0)]
+r=4 p=31 kind=file:/tmp/tmpxgu0b049.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=3, targets=[(1, 13, 9), (1, 13, 22), (1, 19, 0)]
+r=3 p=31 kind=file:/tmp/tmpmf0z36zp.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,13,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 13, 0, 0), (1, 13, 22, 0), (1, 19, 0, 0), (1, 19, 0, 15)]
+r=4 p=31 kind=file:/tmp/tmpqly7n6_y.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 13, 0, 0), (1, 13, 22, 0), (1, 19, 0, 0), (1, 19, 0, 16)]
+r=4 p=31 kind=file:/tmp/tmp9o0suhar.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 9, 29), (1, 19, 0, 0)]
+r=4 p=31 kind=file:/tmp/tmpjt03_t6i.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 13, 0, 0), (1, 13, 9, 0), (1, 19, 0, 0), (1, 19, 0, 15)]
+r=4 p=31 kind=file:/tmp/tmpcatzeodm.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(1, 13, 0, 0), (1, 13, 9, 0), (1, 19, 0, 0), (1, 19, 0, 16)]
+r=4 p=31 kind=file:/tmp/tmp7snc_a17.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(0, 0, 1, 14), (1, 13, 0, 0), (1, 19, 0, 0), (1, 19, 15, 24)]
+r=4 p=31 kind=file:/tmp/tmpjk38pvkx.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=3, targets=[(1, 13, 0), (1, 19, 15), (1, 19, 16)]
+r=3 p=31 kind=file:/tmp/tmpx5k8anxg.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=4): FOUND  nodes=2  0.0s
+  W: (1,19,0)
+
+*** IMPROVEMENT in Winograd 17: window 5 gates, d=4, targets=[(0, 0, 1, 14), (1, 13, 0, 0), (1, 19, 0, 0), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmpdnjf77if.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=4): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 30, 13, 9), (1, 30, 13, 22), (1, 30, 19, 0)]
+r=4 p=31 kind=file:/tmp/tmp6678iwf9.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=235  0.0s
+  W: (1,30,0,0) (1,30,13,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 18, 0), (1, 30, 13, 18, 22), (1, 30, 19, 12, 0)]
+r=5 p=31 kind=file:/tmp/tmph2qymtti.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=32  0.0s
+  W: (1,30,0,0,0) (1,30,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 22, 2), (1, 30, 19, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpc71gig8q.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 0, 0), (1, 30, 13, 22, 0), (1, 30, 19, 0, 0), (1, 30, 19, 0, 15)]
+r=5 p=31 kind=file:/tmp/tmpjgc6gmz8.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 0, 0), (1, 30, 13, 22, 0), (1, 30, 19, 0, 0), (1, 30, 19, 0, 16)]
+r=5 p=31 kind=file:/tmp/tmpv4s9jklf.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 18, 0), (1, 30, 13, 18, 9), (1, 30, 19, 12, 0)]
+r=5 p=31 kind=file:/tmp/tmp1sw87u77.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=32  0.0s
+  W: (1,30,0,0,0) (1,30,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 9, 29), (1, 30, 19, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp9h5q0nq_.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 0, 0), (1, 30, 13, 9, 0), (1, 30, 19, 0, 0), (1, 30, 19, 0, 15)]
+r=5 p=31 kind=file:/tmp/tmp4gr3lal9.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 0, 0), (1, 30, 13, 9, 0), (1, 30, 19, 0, 0), (1, 30, 19, 0, 16)]
+r=5 p=31 kind=file:/tmp/tmpoaj0ubzq.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 18, 0), (1, 30, 19, 12, 0), (1, 30, 19, 12, 15)]
+r=5 p=31 kind=file:/tmp/tmplzh_pbsv.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=32  0.0s
+  W: (1,30,0,0,0) (1,30,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 13, 18, 0), (1, 30, 19, 12, 0), (1, 30, 19, 12, 16)]
+r=5 p=31 kind=file:/tmp/tmpn4l37hs6.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=32  0.0s
+  W: (1,30,0,0,0) (1,30,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 13, 0, 0), (1, 30, 19, 0, 0), (1, 30, 19, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmpmm5wd9zu.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 30, 13, 0), (1, 30, 19, 15), (1, 30, 19, 16)]
+r=4 p=31 kind=file:/tmp/tmpzo_pdy39.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=235  0.0s
+  W: (1,30,0,0) (1,30,19,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 13, 0, 0), (1, 30, 19, 0, 0), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpwefpxxlx.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 30, 12, 0), (1, 30, 18, 9), (1, 30, 18, 22)]
+r=4 p=31 kind=file:/tmp/tmpw2i7leuq.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=235  0.0s
+  W: (1,30,0,0) (1,30,18,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 12, 0, 0), (1, 30, 18, 0, 0), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmp3qdlhlqb.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 12, 0, 0), (1, 30, 12, 16, 0), (1, 30, 18, 0, 0), (1, 30, 18, 0, 22)]
+r=5 p=31 kind=file:/tmp/tmp2sg90zul.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 12, 0, 0), (1, 30, 12, 15, 0), (1, 30, 18, 0, 0), (1, 30, 18, 0, 22)]
+r=5 p=31 kind=file:/tmp/tmp8fggrnrr.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 12, 0, 0), (1, 30, 18, 0, 0), (1, 30, 18, 9, 2)]
+r=5 p=31 kind=file:/tmp/tmpzj9zm15h.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 12, 0, 0), (1, 30, 12, 16, 0), (1, 30, 18, 0, 0), (1, 30, 18, 0, 9)]
+r=5 p=31 kind=file:/tmp/tmpbf9e1_1o.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(1, 30, 12, 0, 0), (1, 30, 12, 15, 0), (1, 30, 18, 0, 0), (1, 30, 18, 0, 9)]
+r=5 p=31 kind=file:/tmp/tmpigcxt3fj.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 16, 24), (1, 30, 18, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp056j_bzf.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 30, 12, 15), (1, 30, 12, 16), (1, 30, 18, 0)]
+r=4 p=31 kind=file:/tmp/tmph2oz_r9g.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=235  0.0s
+  W: (1,30,0,0) (1,30,12,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 15, 7), (1, 30, 18, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp90h79xfx.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=3, targets=[(1, 1, 1), (1, 11, 7), (1, 17, 26)]
+r=3 p=31 kind=file:/tmp/tmpljzlu7iq.txt omega=0 points=993 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=14  0.0s
+  W: (1,1,0) (1,1,7)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 0), (1, 30, 0, 0, 20), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpi_19rp34.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 0), (1, 30, 0, 0, 20), (1, 30, 9, 16, 20)]
+r=5 p=31 kind=file:/tmp/tmpqxe94563.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 0), (1, 30, 0, 0, 11), (1, 30, 16, 22, 11)]
+r=5 p=31 kind=file:/tmp/tmpsvzp0vei.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 0), (1, 30, 0, 0, 11), (1, 30, 15, 9, 11)]
+r=5 p=31 kind=file:/tmp/tmp7zrrz7hb.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 22, 0), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp6xy44wck.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 13, 9, 29), (1, 13, 22, 2), (1, 19, 0, 0)]
+r=4 p=31 kind=file:/tmp/tmpfgx85oz5.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=15  0.0s
+  W: (1,13,0,0) (1,13,9,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 13, 9, 0), (1, 13, 22, 0), (1, 19, 0, 0), (1, 19, 0, 15)]
+r=4 p=31 kind=file:/tmp/tmpxwpb2yyv.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 13, 9, 0), (1, 13, 22, 0), (1, 19, 0, 0), (1, 19, 0, 16)]
+r=4 p=31 kind=file:/tmp/tmpgfcarvja.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 13, 0, 0), (1, 13, 22, 0), (1, 19, 0, 15), (1, 19, 0, 16)]
+r=4 p=31 kind=file:/tmp/tmpbu9dt2dt.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,19,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 22, 0), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 9, 12, 29), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpcflovqjf.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 13, 0, 0), (1, 13, 9, 0), (1, 19, 0, 15), (1, 19, 0, 16)]
+r=4 p=31 kind=file:/tmp/tmp6m1sokhf.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=5): FOUND  nodes=2  0.0s
+  W: (1,19,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 22, 0), (0, 0, 1, 22, 14), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 15, 20, 24)]
+r=5 p=31 kind=file:/tmp/tmpimodri_l.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=4, targets=[(1, 13, 0, 0), (1, 19, 15, 24), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmprg8xiucn.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=5): FOUND  nodes=20  0.0s
+  W: (1,19,0,0) (1,19,15,0)
+
+*** IMPROVEMENT in Winograd 17: window 6 gates, d=5, targets=[(0, 0, 1, 22, 0), (0, 0, 1, 22, 14), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmprf4p8osd.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=5): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(1, 1, 1, 1), (1, 1, 11, 7), (1, 1, 17, 26)]
+r=4 p=31 kind=file:/tmp/tmpjwn4bvx2.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=6): FOUND  nodes=317  0.0s
+  W: (1,1,0,0) (1,1,1,0) (1,1,1,7)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 18, 9), (1, 30, 13, 18, 22), (1, 30, 19, 12, 0)]
+r=5 p=31 kind=file:/tmp/tmp6w_upqbs.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=6): FOUND  nodes=12191  0.9s
+  W: (1,30,0,0,0) (1,30,13,0,0) (1,30,13,18,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 9, 29), (1, 30, 13, 22, 2), (1, 30, 19, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpggquytst.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=6): FOUND  nodes=47670  1.9s
+  W: (1,30,0,0,0) (1,30,13,0,0) (1,30,13,9,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 9, 0), (1, 30, 13, 22, 0), (1, 30, 19, 0, 0), (1, 30, 19, 0, 15)]
+r=5 p=31 kind=file:/tmp/tmp2a6aa75e.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 9, 0), (1, 30, 13, 22, 0), (1, 30, 19, 0, 0), (1, 30, 19, 0, 16)]
+r=5 p=31 kind=file:/tmp/tmpn37pqgbl.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,13,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 0, 0), (1, 30, 13, 22, 0), (1, 30, 19, 0, 15), (1, 30, 19, 0, 16)]
+r=5 p=31 kind=file:/tmp/tmpt9pzjyrn.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,19,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 0, 0), (1, 30, 13, 9, 0), (1, 30, 19, 0, 15), (1, 30, 19, 0, 16)]
+r=5 p=31 kind=file:/tmp/tmpsnj_uzdl.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,19,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 18, 0), (1, 30, 19, 12, 15), (1, 30, 19, 12, 16)]
+r=5 p=31 kind=file:/tmp/tmptznp969d.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=6): FOUND  nodes=12189  0.9s
+  W: (1,30,0,0,0) (1,30,13,0,0) (1,30,19,12,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 13, 0, 0), (1, 30, 19, 15, 24), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpa1yq46j3.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=6): FOUND  nodes=47211  1.9s
+  W: (1,30,0,0,0) (1,30,19,0,0) (1,30,19,15,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 12, 0, 0), (1, 30, 18, 9, 2), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmp4w6m2wh4.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=6): FOUND  nodes=47124  1.8s
+  W: (1,30,0,0,0) (1,30,18,0,0) (1,30,18,9,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 12, 0, 0), (1, 30, 12, 16, 0), (1, 30, 18, 0, 9), (1, 30, 18, 0, 22)]
+r=5 p=31 kind=file:/tmp/tmpvqxu4z4m.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,18,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 12, 0, 0), (1, 30, 12, 15, 0), (1, 30, 18, 0, 9), (1, 30, 18, 0, 22)]
+r=5 p=31 kind=file:/tmp/tmpsnns1wis.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,18,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 12, 15, 0), (1, 30, 12, 16, 0), (1, 30, 18, 0, 0), (1, 30, 18, 0, 22)]
+r=5 p=31 kind=file:/tmp/tmpj0l3sq4s.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,12,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 12, 15, 0), (1, 30, 12, 16, 0), (1, 30, 18, 0, 0), (1, 30, 18, 0, 9)]
+r=5 p=31 kind=file:/tmp/tmp555d7mct.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=235  0.0s
+  W: (1,30,0,0,0) (1,30,12,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(1, 30, 12, 15, 7), (1, 30, 12, 16, 24), (1, 30, 18, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpfsgjhfna.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=6): FOUND  nodes=47583  1.9s
+  W: (1,30,0,0,0) (1,30,12,0,0) (1,30,12,15,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(1, 1, 1, 0), (1, 11, 7, 0), (1, 11, 7, 7), (1, 17, 26, 0)]
+r=4 p=31 kind=file:/tmp/tmpohqmca39.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=14  0.0s
+  W: (1,1,0,0) (1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(1, 1, 1, 0), (1, 11, 7, 0), (1, 11, 7, 24), (1, 17, 26, 0)]
+r=4 p=31 kind=file:/tmp/tmpd4hoou23.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=14  0.0s
+  W: (1,1,0,0) (1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(1, 1, 1, 0), (1, 11, 7, 0), (1, 17, 26, 0), (1, 17, 26, 26)]
+r=4 p=31 kind=file:/tmp/tmpywow6bi1.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=14  0.0s
+  W: (1,1,0,0) (1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(1, 1, 1, 0), (1, 11, 7, 0), (1, 17, 26, 0), (1, 17, 26, 5)]
+r=4 p=31 kind=file:/tmp/tmp6t6rvu90.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=14  0.0s
+  W: (1,1,0,0) (1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 16, 22, 11)]
+r=5 p=31 kind=file:/tmp/tmpyo98s_4o.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 15, 9, 11)]
+r=5 p=31 kind=file:/tmp/tmpapbpt15c.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpie2m12ug.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 9, 16, 20)]
+r=5 p=31 kind=file:/tmp/tmp9uoz5y09.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 13, 0), (1, 30, 0, 0, 0), (1, 30, 9, 16, 20), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpt39jt3po.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=287  0.0s
+  W: (1,30,0,0,20) (1,30,3,0,20)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 19, 0), (1, 30, 0, 0, 0), (1, 30, 15, 9, 11), (1, 30, 16, 22, 11)]
+r=5 p=31 kind=file:/tmp/tmpd1um3sya.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=269  0.0s
+  W: (1,30,0,0,11) (1,30,8,0,11)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 0), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 10, 22, 2), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp12prny8j.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpy9_uei52.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 22, 0), (1, 13, 9, 12, 29), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpxpa91knz.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=15  0.0s
+  W: (1,13,0,0,0) (1,13,9,12,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(0, 0, 1, 14), (0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 22, 2), (1, 19, 0, 0), (1, 19, 15, 24)]
+r=4 p=31 kind=file:/tmp/tmpf3lwnnwk.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(0, 0, 1, 14), (0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 22, 2), (1, 19, 0, 0), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmps9kv3qmt.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(1, 13, 9, 0), (1, 13, 22, 0), (1, 19, 0, 15), (1, 19, 0, 16)]
+r=4 p=31 kind=file:/tmp/tmpdnxgvhw1.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=323  0.0s
+  W: (1,13,0,0) (1,19,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 0), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp2ite0w3i.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 9, 12, 29), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpcxxm2v1m.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(0, 0, 1, 14), (0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 9, 29), (1, 19, 0, 0), (1, 19, 15, 24)]
+r=4 p=31 kind=file:/tmp/tmpx2kcswil.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=4, targets=[(0, 0, 1, 14), (0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 9, 29), (1, 19, 0, 0), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmpxkvv_seu.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 0), (0, 0, 1, 27, 6), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 4, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmp_aihhxib.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 15, 20, 24)]
+r=5 p=31 kind=file:/tmp/tmpi_7py3jy.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 22, 0), (1, 13, 0, 0, 0), (1, 19, 15, 20, 24), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmphu12h8az.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=6): FOUND  nodes=20  0.0s
+  W: (1,19,0,0,0) (1,19,16,11,0)
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 0), (0, 0, 1, 27, 6), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmp78rqqndd.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=0 (L<=6): FOUND  nodes=1  0.0s
+  W:
+
+*** IMPROVEMENT in Winograd 17: window 7 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmpbb4li28x.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=6): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 1, 1), (1, 1, 11, 11, 7), (1, 1, 17, 17, 26)]
+r=5 p=31 kind=file:/tmp/tmpmhx7u92j.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=7): FOUND  nodes=27844  2.2s
+  W: (1,1,0,0,0) (1,1,11,0,0) (1,1,11,11,0) (1,1,0,0,29)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 1, 0), (1, 1, 11, 7, 0), (1, 1, 11, 7, 7), (1, 1, 17, 26, 0)]
+r=5 p=31 kind=file:/tmp/tmpkq_w8eaz.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=317  0.0s
+  W: (1,1,0,0,0) (1,1,1,0,0) (1,1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 1, 0), (1, 1, 11, 7, 0), (1, 1, 11, 7, 24), (1, 1, 17, 26, 0)]
+r=5 p=31 kind=file:/tmp/tmpqemfrlgd.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=317  0.0s
+  W: (1,1,0,0,0) (1,1,1,0,0) (1,1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 1, 0), (1, 1, 11, 7, 0), (1, 1, 17, 26, 0), (1, 1, 17, 26, 26)]
+r=5 p=31 kind=file:/tmp/tmp_0p5bfl8.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=317  0.0s
+  W: (1,1,0,0,0) (1,1,1,0,0) (1,1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 1, 0), (1, 1, 11, 7, 0), (1, 1, 17, 26, 0), (1, 1, 17, 26, 5)]
+r=5 p=31 kind=file:/tmp/tmpj36xq2p1.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=317  0.0s
+  W: (1,1,0,0,0) (1,1,1,0,0) (1,1,1,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 30, 13, 9, 0), (1, 30, 13, 22, 0), (1, 30, 19, 0, 15), (1, 30, 19, 0, 16)]
+r=5 p=31 kind=file:/tmp/tmpez9q78oq.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=15493  1.1s
+  W: (1,30,0,0,0) (1,30,13,0,0) (1,30,19,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 22, 2), (1, 30, 19, 0, 0), (1, 30, 19, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmpdjbfgjdn.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 22, 2), (1, 30, 19, 0, 0), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpofl6glbx.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 9, 29), (1, 30, 19, 0, 0), (1, 30, 19, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmp1dwiw5ls.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 9, 29), (1, 30, 19, 0, 0), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpeeo65awi.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 30, 12, 15, 0), (1, 30, 12, 16, 0), (1, 30, 18, 0, 9), (1, 30, 18, 0, 22)]
+r=5 p=31 kind=file:/tmp/tmpu9a55_wg.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=15453  1.1s
+  W: (1,30,0,0,0) (1,30,12,0,0) (1,30,18,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 16, 24), (1, 30, 18, 0, 0), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmphepmv02y.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 15, 7), (1, 30, 18, 0, 0), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmp1kel3vbs.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 16, 24), (1, 30, 18, 0, 0), (1, 30, 18, 9, 2)]
+r=5 p=31 kind=file:/tmp/tmpx1to13oz.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 14), (0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 15, 7), (1, 30, 18, 0, 0), (1, 30, 18, 9, 2)]
+r=5 p=31 kind=file:/tmp/tmp58dme5yx.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 30, 14), (1, 17, 26, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmphi5u1ph9.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=4, targets=[(1, 1, 1, 0), (1, 11, 7, 7), (1, 11, 7, 24), (1, 17, 26, 0)]
+r=4 p=31 kind=file:/tmp/tmpsgogl96q.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=1974  0.0s
+  W: (1,1,0,0) (1,1,7,0) (1,11,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 7, 0), (1, 17, 26, 0, 0), (1, 17, 26, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmp_x4ytszq.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 7, 0), (1, 17, 26, 0, 0), (1, 17, 26, 0, 5)]
+r=5 p=31 kind=file:/tmp/tmpjal6rcgk.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 1, 17), (1, 17, 26, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpu7ecs1tq.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 24, 0), (1, 17, 26, 0, 0), (1, 17, 26, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmp4l7o1nb2.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 24, 0), (1, 17, 26, 0, 0), (1, 17, 26, 0, 5)]
+r=5 p=31 kind=file:/tmp/tmp5_q1ogpi.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 18), (1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 17, 26, 0, 0), (1, 17, 26, 10, 25)]
+r=5 p=31 kind=file:/tmp/tmpbhfc05ui.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=4, targets=[(1, 1, 1, 0), (1, 11, 7, 0), (1, 17, 26, 5), (1, 17, 26, 26)]
+r=4 p=31 kind=file:/tmp/tmp9yowlbb4.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=1956  0.0s
+  W: (1,1,0,0) (1,1,7,0) (1,17,26,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 0, 1, 18), (1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 17, 26, 0, 0), (1, 17, 26, 21, 6)]
+r=5 p=31 kind=file:/tmp/tmpgn10cnfm.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 19, 0), (1, 30, 0, 0, 20), (1, 30, 15, 9, 11), (1, 30, 16, 22, 11)]
+r=5 p=31 kind=file:/tmp/tmp5sw96jy5.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=81031  3.1s
+  W: (1,30,0,0,0) (1,30,0,0,11) (1,30,8,0,11)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 16, 22, 11), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpagsw6frk.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 9, 16, 20), (1, 30, 16, 22, 11)]
+r=5 p=31 kind=file:/tmp/tmpomp7vhe_.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 15, 9, 11), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmp1ognj5kz.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 30, 0, 0, 11), (1, 30, 0, 0, 20), (1, 30, 9, 16, 20), (1, 30, 15, 9, 11)]
+r=5 p=31 kind=file:/tmp/tmpcga3equf.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (1,30,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 13, 0), (1, 30, 0, 0, 11), (1, 30, 9, 16, 20), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpmn4j_7a9.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=80305  3.0s
+  W: (1,30,0,0,0) (1,30,3,0,11) (1,30,9,16,11)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 10, 22, 2), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpvgjaazbv.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 0), (1, 13, 10, 22, 2), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp49vg6ofu.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=15  0.0s
+  W: (1,13,0,0,0) (1,13,21,9,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 22, 14), (1, 13, 9, 12, 29), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp5spxalbj.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=25154  1.0s
+  W: (1,13,0,0,0) (1,13,0,0,2) (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0), (1, 19, 15, 20, 24)]
+r=5 p=31 kind=file:/tmp/tmpcpmtxy93.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmprkjlpsu9.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=4, targets=[(0, 0, 1, 14), (1, 13, 9, 29), (1, 13, 22, 2), (1, 19, 0, 0), (1, 19, 15, 24)]
+r=4 p=31 kind=file:/tmp/tmpf0_zy963.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=7  0.0s
+  W: (1,4,0,0) (1,13,9,2)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=4, targets=[(0, 0, 1, 14), (1, 13, 9, 29), (1, 13, 22, 2), (1, 19, 0, 0), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmpjiflve_c.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=10  0.0s
+  W: (1,4,0,0) (1,13,22,29)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=4, targets=[(0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 22, 2), (1, 19, 15, 24), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmpzclj8_ia.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=9  0.0s
+  W: (1,4,0,0) (1,19,16,24)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpoq8qtgd_.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 9, 12, 29), (1, 19, 0, 0, 0), (1, 19, 15, 20, 24)]
+r=5 p=31 kind=file:/tmp/tmpfhk24nim.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 22, 14), (0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 9, 12, 29), (1, 19, 0, 0, 0), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmpaw6kerpv.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=4, targets=[(0, 0, 1, 17), (1, 13, 0, 0), (1, 13, 9, 29), (1, 19, 15, 24), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmpjh7g6ajs.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=8  0.0s
+  W: (1,4,0,0) (1,19,15,7)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 4, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmp701m2e9s.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 0), (1, 13, 0, 0, 0), (1, 19, 4, 15, 24), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpm6_8fv59.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=7): FOUND  nodes=20  0.0s
+  W: (1,19,0,0,0) (1,19,4,15,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 19, 15, 20, 24), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmpei7stjmd.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=7): FOUND  nodes=34862  1.4s
+  W: (1,19,0,0,0) (1,19,0,0,7) (0,0,1,22,0)
+
+*** IMPROVEMENT in Winograd 17: window 8 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 19, 0, 0, 0), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmp1ps5wke7.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=7): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 1, 0), (1, 1, 11, 7, 7), (1, 1, 11, 7, 24), (1, 1, 17, 26, 0)]
+r=5 p=31 kind=file:/tmp/tmp_d3eyp9s.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=8): FOUND  nodes=70543  2.8s
+  W: (1,1,0,0,0) (1,1,1,0,0) (1,1,1,7,0) (1,1,11,7,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 1, 0), (1, 1, 11, 7, 0), (1, 1, 17, 26, 5), (1, 1, 17, 26, 26)]
+r=5 p=31 kind=file:/tmp/tmppy1dv8pr.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=8): FOUND  nodes=68877  2.8s
+  W: (1,1,0,0,0) (1,1,1,0,0) (1,1,1,7,0) (1,1,17,26,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 13, 9, 29), (1, 30, 13, 22, 2), (1, 30, 19, 0, 0), (1, 30, 19, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmp9ihj7dv_.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=55097  2.6s
+  W: (1,30,0,0,0) (1,30,4,0,0) (1,30,13,9,2)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 13, 9, 29), (1, 30, 13, 22, 2), (1, 30, 19, 0, 0), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpg0sbl92v.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=55100  2.6s
+  W: (1,30,0,0,0) (1,30,4,0,0) (1,30,13,22,29)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 22, 2), (1, 30, 19, 15, 24), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpazavirmt.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=54595  2.5s
+  W: (1,30,0,0,0) (1,30,4,0,0) (1,30,19,16,24)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 13, 0, 0), (1, 30, 13, 9, 29), (1, 30, 19, 15, 24), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmp1nqinent.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=54594  2.6s
+  W: (1,30,0,0,0) (1,30,4,0,0) (1,30,19,15,7)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 16, 24), (1, 30, 18, 9, 2), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmplavh7s7v.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=54524  2.5s
+  W: (1,30,0,0,0) (1,30,8,0,0) (1,30,18,9,29)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 17), (1, 30, 12, 0, 0), (1, 30, 12, 15, 7), (1, 30, 18, 9, 2), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmpu3byq5ih.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=54521  2.6s
+  W: (1,30,0,0,0) (1,30,8,0,0) (1,30,18,22,2)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 12, 15, 7), (1, 30, 12, 16, 24), (1, 30, 18, 0, 0), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmph66aohud.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=55027  2.6s
+  W: (1,30,0,0,0) (1,30,8,0,0) (1,30,12,15,24)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 0, 1, 14), (1, 30, 12, 15, 7), (1, 30, 12, 16, 24), (1, 30, 18, 0, 0), (1, 30, 18, 9, 2)]
+r=5 p=31 kind=file:/tmp/tmpiy2mayez.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=55026  2.5s
+  W: (1,30,0,0,0) (1,30,8,0,0) (1,30,12,16,7)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 13, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 11, 13, 14, 7), (1, 17, 0, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmpvm02tz83.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=8): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 1, 17), (1, 11, 7, 30, 14), (1, 17, 26, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpvhhfoos1.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=8): FOUND  nodes=549108  17.6s
+  W: (1,1,0,0,0) (1,1,7,0,0) (1,11,7,0,0) (1,11,7,1,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 7, 0), (1, 11, 7, 24, 0), (1, 17, 26, 0, 0), (1, 17, 26, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmp8qvntue3.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=1974  0.1s
+  W: (1,1,0,0,0) (1,1,7,0,0) (1,11,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 7, 0), (1, 11, 7, 24, 0), (1, 17, 26, 0, 0), (1, 17, 26, 0, 5)]
+r=5 p=31 kind=file:/tmp/tmpc15838mt.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=1974  0.1s
+  W: (1,1,0,0,0) (1,1,7,0,0) (1,11,7,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 7, 0), (1, 17, 26, 0, 5), (1, 17, 26, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmp1jbtk6pf.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=1956  0.1s
+  W: (1,1,0,0,0) (1,1,7,0,0) (1,17,26,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 13, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 11, 18, 17, 7), (1, 17, 0, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmpjl6btb8i.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=8): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 11, 7, 24, 0), (1, 17, 26, 0, 5), (1, 17, 26, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmp9y84zo6e.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=1956  0.1s
+  W: (1,1,0,0,0) (1,1,7,0,0) (1,17,26,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 17, 0, 0, 26), (1, 17, 10, 4, 26)]
+r=5 p=31 kind=file:/tmp/tmpf6eghsom.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=8): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 0, 0), (1, 17, 26, 10, 25), (1, 17, 26, 21, 6)]
+r=5 p=31 kind=file:/tmp/tmpvg7u1cpe.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=8): FOUND  nodes=517631  16.9s
+  W: (1,1,0,0,0) (1,1,7,0,0) (1,17,26,0,0) (1,17,26,10,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 17, 0, 0, 26), (1, 17, 21, 27, 26)]
+r=5 p=31 kind=file:/tmp/tmpfp4hc_xx.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=2 (L<=8): FOUND  nodes=14  0.0s
+  W: (1,1,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 1, 0, 0, 27), (1, 11, 0, 0, 7), (1, 11, 13, 14, 7), (1, 30, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpxzlx_iz5.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (1,1,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 1, 0, 0, 27), (1, 11, 0, 0, 7), (1, 11, 18, 17, 7), (1, 30, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpispvdvsa.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (1,1,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 1, 0, 0, 27), (1, 17, 0, 0, 26), (1, 17, 10, 4, 26), (1, 30, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpg8f3gekt.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (1,1,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 1, 0, 0, 27), (1, 17, 0, 0, 26), (1, 17, 21, 27, 26), (1, 30, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmp1a31folu.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (1,1,0,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 19, 0), (1, 30, 0, 0, 20), (1, 30, 15, 9, 11), (1, 30, 16, 22, 11), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpwf5ujpzw.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=81652  3.4s
+  W: (1,30,0,0,0) (1,30,0,0,11) (1,30,8,0,11)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 19, 0), (1, 30, 0, 0, 20), (1, 30, 9, 16, 20), (1, 30, 15, 9, 11), (1, 30, 16, 22, 11)]
+r=5 p=31 kind=file:/tmp/tmp2wgem06o.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=81652  3.5s
+  W: (1,30,0,0,0) (1,30,0,0,11) (1,30,8,0,11)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 13, 0), (1, 30, 0, 0, 11), (1, 30, 9, 16, 20), (1, 30, 16, 22, 11), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmp5r2rrdrj.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=80926  3.4s
+  W: (1,30,0,0,0) (1,30,3,0,11) (1,30,9,16,11)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 13, 0), (1, 30, 0, 0, 11), (1, 30, 9, 16, 20), (1, 30, 15, 9, 11), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpz8mk_35f.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=80926  3.4s
+  W: (1,30,0,0,0) (1,30,3,0,11) (1,30,9,16,11)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (1, 13, 10, 22, 2), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpr89xz7yw.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=66002  2.3s
+  W: (1,13,0,0,0) (1,13,0,0,2) (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 10, 22, 2), (1, 19, 0, 0, 0), (1, 19, 4, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmpexmeh2g6.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 10, 22, 2), (1, 19, 0, 0, 0), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpiaad8va7.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 22, 14), (1, 13, 9, 12, 29), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0), (1, 19, 15, 20, 24)]
+r=5 p=31 kind=file:/tmp/tmp4bou574w.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=7875  0.3s
+  W: (1,4,0,0,0) (0,0,1,22,0) (1,13,9,12,2)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 22, 14), (1, 13, 9, 12, 29), (1, 13, 22, 19, 2), (1, 19, 0, 0, 0), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmpyq8gxue5.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=7877  0.4s
+  W: (1,4,0,0,0) (0,0,1,22,0) (1,13,22,19,29)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 22, 19, 2), (1, 19, 15, 20, 24), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmpypnl8u5v.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=7822  0.3s
+  W: (1,4,0,0,0) (0,0,1,22,0) (1,19,16,11,24)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=4, targets=[(1, 13, 9, 29), (1, 13, 22, 2), (1, 19, 15, 24), (1, 19, 16, 7)]
+r=4 p=31 kind=file:/tmp/tmp0rv_c46w.txt omega=0 points=30784 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=8): FOUND  nodes=122797  1.2s
+  W: (1,1,0,0) (0,0,1,14) (1,1,9,2) (1,13,9,2)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0), (1, 19, 4, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmp89sm7t1y.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmp2d6u_gf1.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=1 (L<=8): FOUND  nodes=2  0.0s
+  W: (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 22, 17), (1, 13, 0, 0, 0), (1, 13, 9, 12, 29), (1, 19, 15, 20, 24), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmpu9u4gte2.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=7822  0.3s
+  W: (1,4,0,0,0) (0,0,1,22,0) (1,19,15,20,7)
+
+*** IMPROVEMENT in Winograd 17: window 9 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 19, 4, 15, 24), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpmf58d9gj.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=8): FOUND  nodes=93353  3.2s
+  W: (1,19,0,0,0) (1,19,0,0,7) (0,0,1,27,0)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(1, 30, 13, 9, 29), (1, 30, 13, 22, 2), (1, 30, 19, 15, 24), (1, 30, 19, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmph4oxmpg5.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=5 (L<=9): FOUND  nodes=1140361529  102400.8s
+  W: (1,30,0,0,0) (1,30,1,0,0) (0,0,0,1,14) (1,30,1,9,2) (1,30,13,9,2)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(1, 30, 12, 15, 7), (1, 30, 12, 16, 24), (1, 30, 18, 9, 2), (1, 30, 18, 22, 29)]
+r=5 p=31 kind=file:/tmp/tmpsnvte3pk.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=5 (L<=9): FOUND  nodes=1140360382  102045.8s
+  W: (1,30,0,0,0) (1,30,1,0,0) (0,0,0,1,14) (1,30,1,9,2) (1,30,12,15,24)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 11, 13, 14, 7), (1, 17, 0, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmpgyo_cfdr.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=17  0.0s
+  W: (1,1,0,0,0) (1,2,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 1, 0), (1, 1, 0, 0, 1), (1, 11, 13, 14, 7), (1, 11, 18, 17, 7), (1, 17, 0, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmptpv5ceke.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=9): FOUND  nodes=2780715  92.9s
+  W: (1,1,0,0,0) (1,1,0,0,7) (1,11,0,0,7) (1,11,1,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(1, 1, 1, 0, 0), (1, 11, 7, 7, 0), (1, 11, 7, 24, 0), (1, 17, 26, 0, 5), (1, 17, 26, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmp1gi0xbhd.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=9): FOUND  nodes=114088  6.5s
+  W: (1,1,0,0,0) (1,1,7,0,0) (1,11,7,0,0) (1,17,26,0,0)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 11, 18, 17, 7), (1, 17, 0, 0, 26)]
+r=5 p=31 kind=file:/tmp/tmp28pazdmn.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=17  0.0s
+  W: (1,1,0,0,0) (1,2,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 17, 0, 0, 26), (1, 17, 10, 4, 26)]
+r=5 p=31 kind=file:/tmp/tmpogrfbho3.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=17  0.0s
+  W: (1,1,0,0,0) (1,2,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 1, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 17, 10, 4, 26), (1, 17, 21, 27, 26)]
+r=5 p=31 kind=file:/tmp/tmpsaiy7bvm.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=4 (L<=9): FOUND  nodes=2701964  91.4s
+  W: (1,1,0,0,0) (1,1,0,0,7) (1,17,0,0,26) (1,17,6,0,26)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 13, 0), (0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 11, 0, 0, 7), (1, 17, 0, 0, 26), (1, 17, 21, 27, 26)]
+r=5 p=31 kind=file:/tmp/tmpmqmqn5bx.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=17  0.0s
+  W: (1,1,0,0,0) (1,2,0,0,0) (1,1,0,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 19, 0), (1, 1, 0, 0, 1), (1, 1, 0, 0, 27), (1, 11, 13, 14, 7), (1, 11, 18, 17, 7), (1, 30, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpsat9pxs1.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=496  0.0s
+  W: (1,1,0,0,0) (1,11,0,0,7) (1,11,9,0,7)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 13, 0), (1, 1, 0, 0, 1), (1, 1, 0, 0, 27), (1, 17, 10, 4, 26), (1, 17, 21, 27, 26), (1, 30, 0, 0, 0)]
+r=5 p=31 kind=file:/tmp/tmpxi3ccnf5.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=626  0.1s
+  W: (1,1,0,0,0) (1,17,0,0,26) (1,17,7,0,26)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(1, 30, 9, 16, 20), (1, 30, 15, 9, 11), (1, 30, 16, 22, 11), (1, 30, 22, 15, 20)]
+r=5 p=31 kind=file:/tmp/tmpkdh6r6ei.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=5 (L<=9): FOUND  nodes=1169504349  104041.0s
+  W: (1,30,0,0,0) (1,30,0,0,5) (1,30,0,0,11) (0,0,1,19,0) (1,30,15,6,11)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (1, 13, 10, 22, 2), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0), (1, 19, 4, 15, 24)]
+r=5 p=31 kind=file:/tmp/tmp1qd4y9nz.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=20484  0.8s
+  W: (1,4,0,0,0) (0,0,1,27,0) (1,13,21,9,2)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 6), (1, 13, 10, 22, 2), (1, 13, 21, 9, 29), (1, 19, 0, 0, 0), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpzb1w5zvw.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=20486  0.8s
+  W: (1,4,0,0,0) (0,0,1,27,0) (1,13,10,22,29)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 10, 22, 2), (1, 19, 4, 15, 24), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmp0vsi325l.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=20677  0.8s
+  W: (1,4,0,0,0) (0,0,1,27,0) (1,19,27,16,24)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(1, 13, 9, 12, 29), (1, 13, 22, 19, 2), (1, 19, 15, 20, 24), (1, 19, 16, 11, 7)]
+r=5 p=31 kind=file:/tmp/tmpxb267c1p.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=5 (L<=9): FOUND  nodes=38439288  3471.7s
+  W: (1,1,0,0,0) (0,0,1,22,0) (0,0,1,22,14) (1,1,9,12,2) (1,13,9,12,2)
+
+*** IMPROVEMENT in Winograd 17: window 10 gates, d=5, targets=[(0, 0, 1, 1, 0), (0, 0, 1, 27, 25), (1, 13, 0, 0, 0), (1, 13, 21, 9, 29), (1, 19, 4, 15, 24), (1, 19, 27, 16, 7)]
+r=5 p=31 kind=file:/tmp/tmpeysshuqq.txt omega=0 points=954305 |G|=0 split 0/1 level 1
+  |W|<=3 (L<=9): FOUND  nodes=20677  0.8s
+  W: (1,4,0,0,0) (0,0,1,27,0) (1,19,4,15,7)
+
+summary: {'windows': 10982, 'convex': 3399, 'problems': 786, 'aborted': 0, 'found': 208, 'none': 578}
+window q=31 maxrss=20852KB elapsed=104391.66s user=359423.33s sys=87.83s

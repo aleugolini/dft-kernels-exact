@@ -1,0 +1,6 @@
+$ python3 exact_small.py dft5 9
+manifest: {"argv": ["dft5", "9"], "python": "3.12.7", "restart_every": 50000, "singular": "Singular", "singular_version": "44105", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 3}
+dft5, at most 9 gates, over Q(omega)-bar, sym2=False, split=(0, 1): {'dfs': 65624, 'gb': 1362380, 'leaves': 0, 'sec': 126.8, 'cpu': 127.0, 'restarts': 28}
+per depth (gate: moves, Groebner tests, rejected): 1: 10, 0, 0; 2: 105, 0, 0; 3: 1293, 0, 0; 4: 19535, 540, 0; 5: 63040, 43600, 18360; 6: 1318240, 1318240, 1318240
+RESULT: no circuit -> L > 9
+

@@ -1,0 +1,2 @@
+dft4, at most 7 gates, unnormalized, no ordering rules, sympy, split=(4, 6): {'nodes': 4482, 'gb': 334224, 'leaves': 0, 'sec': 812.2}
+RESULT: no circuit -> L > 7

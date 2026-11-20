@@ -1,0 +1,5 @@
+manifest: {"argv": ["dft5", "10", "--sym2", "--split", "2", "12", "--split-depth", "3", "--show", "0"], "python": "3.11.18", "restart_every": 50000, "singular": "~/conda/envs/singular/bin/Singular", "singular_version": "44100", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 3}
+dft5, at most 10 gates, over Q(omega)-bar, sym2=True, split=(2, 12): {'dfs': 55126, 'gb': 1399590, 'leaves': 0, 'sec': 271.0, 'cpu': 263.5, 'restarts': 29}
+per depth (gate: moves, Groebner tests, rejected): 1: 1, 0, 0; 2: 15, 0, 0; 3: 18, 0, 0; 4: 277, 15, 0; 5: 6089, 955, 510; 6: 75825, 40950, 26590; 7: 1357670, 1357670, 1357670
+RESULT: no circuit -> L > 10
+part 2 maxrss=71572KB elapsed=272.44s user=232.61s sys=30.85s

@@ -1,0 +1,19 @@
+progress: 1800 s, ~11.6% of this part, gb=4111145, path=1/1 2/15 15/20 12/13
+progress: 3600 s, ~18.1% of this part, gb=8075569, path=1/1 3/15 14/19 9/13
+progress: 5400 s, ~23.3% of this part, gb=12475230, path=1/1 4/15 9/18 15/17
+progress: 7200 s, ~37.7% of this part, gb=17992351, path=1/1 6/15 11/16 6/13
+progress: 9000 s, ~40.4% of this part, gb=23933000, path=1/1 7/15 1/15 20/23
+progress: 10800 s, ~49.8% of this part, gb=29703492, path=1/1 8/15 7/14 9/15
+progress: 12600 s, ~63.2% of this part, gb=33630651, path=1/1 10/15 6/12 12/14
+progress: 14400 s, ~65.1% of this part, gb=37459702, path=1/1 10/15 10/12 4/12
+progress: 16200 s, ~68.6% of this part, gb=41301201, path=1/1 11/15 4/11 5/15
+progress: 18000 s, ~70.9% of this part, gb=45308256, path=1/1 11/15 7/11 14/14
+progress: 19800 s, ~76.1% of this part, gb=49571857, path=1/1 12/15 5/10 4/15
+progress: 21600 s, ~77.9% of this part, gb=53139253, path=1/1 12/15 7/10 13/13
+progress: 23400 s, ~86.3% of this part, gb=56744548, path=1/1 13/15 9/9 6/10
+progress: 25200 s, ~92.5% of this part, gb=60730990, path=1/1 14/15 8/8 1/8
+manifest: {"argv": ["dft5", "12", "--sym2", "--galois", "--split", "2026", "2048", "--split-depth", "6", "--show", "0"], "python": "3.11.18", "restart_every": 50000, "singular": "~/conda/envs/singular/bin/Singular", "singular_version": "44100", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 6}
+dft5, at most 12 gates, over Q(omega)-bar, sym2=True, split=(2026, 2048), galois=True: {'dfs': 1217756, 'gb': 63778513, 'leaves': 0, 'sec': 26487.7, 'cpu': 25184.7, 'restarts': 1300}
+per depth (gate: moves, Groebner tests, rejected): 1: 1, 0, 0; 2: 15, 0, 0; 3: 210, 0, 0; 4: 3278, 30, 0; 5: 61379, 2366, 660; 6: 699, 58, 27; 7: 20794, 2988, 1856; 8: 329690, 137787, 92744; 9: 5932035, 5608257, 5036436; 10: 57923595, 57923595, 57922218; 11: 103432, 103432, 103432
+RESULT: no circuit -> L > 12
+part 2026 maxrss=90900KB elapsed=26487.86s user=22532.81s sys=2651.89s

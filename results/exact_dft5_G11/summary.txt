@@ -1,0 +1,19 @@
+directory: exact_dft5_G11
+parts complete: 48/48
+search nodes (dfs):          46,749,703   $46\,749\,703$
+Groebner bases:           2,227,643,830   $2\,227\,643\,830$
+leaves:                               0
+Singular restarts:               45,483   $45\,483$
+search time:                      205.9 h (sum of 'sec' over parts, elapsed)
+CPU time:                         193.8 h (user + system, with Singular)
+configuration: {"argv": ["dft5", "11", "--sym2", "--split", "k", "48", "--split-depth", "4", "--show", "0"], "python": "3.11.18", "restart_every": 50000, "singular": "~/conda/envs/singular/bin/Singular", "singular_version": "44100", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 4}
+  per part:          2.06 to 7.07 h, mean 4.29 h
+elapsed (/usr/bin/time): 205.9 h summed over 48 parts; max resident memory 84 MB
+CPU models (Slurm jobs): Intel Xeon E7-8880 v4 (1); Intel Xeon Gold 6140 (1)
+per depth (gate: moves, Groebner tests, rejected), summed over parts:
+  1: 48, 0, 0; 2: 720, 0, 0; 3: 10080, 0, 0; 4: 3323, 75, 0; 5: 67448, 6815, 2550; 6: 1846011, 375720, 212700; 7: 35579225, 18276650, 12565140; 8: 689656650, 689656650, 667633460; 9: 1519327920, 1519327920, 1519327920
+
+LaTeX placeholders:
+  Table I, Groebner bases:  $2\,227\,643\,830$
+  CPU hours (rounded):      $200$
+  run record: $46\,749\,703$ search nodes, $2\,227\,643\,830$ Groebner bases, $45\,483$ restarts, 206 hours elapsed, 194 hours of CPU time

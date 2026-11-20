@@ -1,0 +1,3 @@
+r=5 p=11 kind=dft omega=3 points=16105 |G|=100 split 96/256 level 1
+  |W|<=7 (L<=12): none  nodes=250478388  1396.4s
+part 96 maxrss=836KB elapsed=1399.81s user=1396.44s sys=0.00s

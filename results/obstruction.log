@@ -1,0 +1,33 @@
+$ python3 obstruction.py f4_char5
+f4_char5: 17 equations, 12 unknowns, gauge=on
+degrees: [1, 2, 3, 4, 5, 6]
+--- over Z:
+   CONSTANT 5
+   SIZE 13
+   DIM 0
+--- over Q:
+   CONSTANT 1
+   SIZE 1
+   DIM -1
+$ python3 obstruction.py f8_char3
+f8_char3: 65 equations, 32 unknowns, gauge=on
+degrees: [1, 2, 3, 4, 5, 6, 7, 8]
+--- over Z:
+   CONSTANT 3
+   SIZE 36
+   DIM 0
+--- over Q:
+   CONSTANT 1
+   SIZE 1
+   DIM -1
+$ python3 obstruction.py f5_char11
+f5_char11: 26 equations, 20 unknowns, gauge=on
+degrees: [1, 2, 3, 4]
+--- over Z:
+   CONSTANT 11
+   SIZE 21
+   DIM 0
+--- over Q:
+   CONSTANT 1
+   SIZE 1
+   DIM -1

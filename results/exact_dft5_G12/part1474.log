@@ -1,0 +1,12 @@
+progress: 1800 s, ~14.8% of this part, gb=6808616, path=1/1 3/15 5/19 8/22
+progress: 3600 s, ~29.7% of this part, gb=13488322, path=1/1 5/15 8/17 12/17
+progress: 5400 s, ~49.3% of this part, gb=20426646, path=1/1 8/15 6/14 9/16
+progress: 7200 s, ~63.3% of this part, gb=27272892, path=1/1 10/15 7/12 1/13
+progress: 9000 s, ~70.9% of this part, gb=34325027, path=1/1 11/15 7/11 14/14
+progress: 10800 s, ~78.7% of this part, gb=41158792, path=1/1 12/15 9/10 2/11
+progress: 12600 s, ~87.0% of this part, gb=47734066, path=1/1 14/15 1/8 10/23
+manifest: {"argv": ["dft5", "12", "--sym2", "--galois", "--split", "1474", "2048", "--split-depth", "6", "--show", "0"], "python": "3.11.18", "restart_every": 50000, "singular": "~/conda/envs/singular/bin/Singular", "singular_version": "44100", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 6}
+dft5, at most 12 gates, over Q(omega)-bar, sym2=True, split=(1474, 2048), galois=True: {'dfs': 1005448, 'gb': 50771584, 'leaves': 0, 'sec': 13300.8, 'cpu': 12086.2, 'restarts': 1035}
+per depth (gate: moves, Groebner tests, rejected): 1: 1, 0, 0; 2: 15, 0, 0; 3: 210, 0, 0; 4: 3278, 30, 0; 5: 61379, 2366, 660; 6: 699, 61, 29; 7: 19800, 2559, 1433; 8: 328737, 126816, 85758; 9: 5200017, 4978497, 4521887; 10: 45585180, 45585180, 45584102; 11: 76075, 76075, 76075
+RESULT: no circuit -> L > 12
+part 1474 maxrss=92980KB elapsed=13301.05s user=10826.18s sys=1259.98s

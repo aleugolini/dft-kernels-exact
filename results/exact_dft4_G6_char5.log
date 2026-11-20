@@ -1,0 +1,6 @@
+$ python3 exact_small.py dft4 6 --char 5 --omega 2
+manifest: {"argv": ["dft4", "6", "--char", "5", "--omega", "2"], "python": "3.12.7", "restart_every": 50000, "singular": "Singular", "singular_version": "44105", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 3}
+dft4, at most 6 gates, over F_5-bar (omega=2), sym2=False, split=(0, 1): {'dfs': 138, 'gb': 1769, 'leaves': 0, 'sec': 0.1, 'cpu': 0.1, 'restarts': 0}
+per depth (gate: moves, Groebner tests, rejected): 1: 6, 0, 0; 2: 45, 0, 0; 3: 60, 60, 0; 4: 1170, 1170, 1144; 5: 539, 539, 539
+RESULT: no circuit -> L > 6
+
