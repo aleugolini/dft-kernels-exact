@@ -1,0 +1,4 @@
+part 38 of 48, split depth 4
+dft5, at most 11 gates, over Q(omega), sym2=True: {'nodes': 997465, 'target_moves': 46546495, 'certified': 45945860, 'leaves': 0}; certificates in file: 45945860, unused: 0
+RESULT: all branches certified -> L > 11
+check part 38 maxrss=13868KB elapsed=40899.09s

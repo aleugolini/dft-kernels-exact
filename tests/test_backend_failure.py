@@ -5,7 +5,8 @@ On the known-positive instance F3 with G = 5 (138 leaves), the Groebner test of 
 move is corrupted with an undefined symbol, so Singular stays alive and reports an error.
 The only acceptable outcome is an exception (aborted run); returning a result, in
 particular 'no circuit', is a failure of the test. The same is checked for a corrupted
-state command (auxiliary-node definition) and for the search over Z.
+state command (auxiliary-node definition), for the search over Z, and for a state that
+prints output when it is replayed after a restart of Singular.
 
 usage: python3 tests/test_backend_failure.py      (prints PASS or FAIL, exit status 0 on PASS)
 """
@@ -49,6 +50,19 @@ def main():
     ok &= case("corrupted Groebner test", "run", "ideal(a")
     ok &= case("corrupted auxiliary node", "push", "+t1*")
     ok &= case("corrupted Groebner test over Z", "run", "ideal(a", overz=True)
+    # replay after a restart: a state command that prints something must abort, not be ignored
+    S = es.Singular(restart_every=2)
+    S.push("ring R = 0, (x), dp;")
+    S.push("poly p = x;")
+    S.state[-1] = "poly p = x; print(5);"  # corrupted replay state (prints output)
+    try:
+        for _ in range(4):
+            S.run("print(1);")
+        print("FAIL corrupted replay state: no exception after restarts")
+        ok = False
+    except RuntimeError as e:
+        print(f"PASS corrupted replay state: aborted ({str(e).splitlines()[0]})")
+    S.close()
     print("PASS" if ok else "FAIL")
     sys.exit(0 if ok else 1)
 

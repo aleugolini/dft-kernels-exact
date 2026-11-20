@@ -5,7 +5,7 @@ Checks that every part 0..P-1 has a log ending with 'RESULT: no circuit', with t
 header (kernel, gates, split), no traceback/error, and no WATCHDOG line in the Slurm outputs;
 then sums the statistics and prints them in LaTeX form (thin-space thousands).
 
-usage: python3 summarize_parts.py DIR P [--gates G] [--kernel dft5]
+usage: python3 summarize_parts.py DIR P [--gates G] [--kernel dft5] [--legacy] [--split-depth D]
        DIR holds part{k}.log (and optionally slurm_*.out); P is the number of parts.
 Exit status 0 only if the run is complete and clean.
 Also importable: summarize(DIR, P, G, kernel) returns the totals as a dict.
@@ -23,12 +23,35 @@ def tex(n):
     return f"${s}$"
 
 
-def summarize(d, P, G=None, kernel="dft5"):
+def check_partition(per_part, P, D):
+    """per_part: {k: {depth: (moves, tests, rejected)}}. Every part repeats the same search above
+    the split depth D, and the moves at depth D are dealt by a counter modulo P, so part k gets
+    the candidates c = k, k+P, ... < M. Returns a list of problems (empty if it is a partition)."""
+    bad = []
+    if not per_part or D is None:
+        return ["no per-depth statistics or unknown split depth"]
+    ref = {g: v for g, v in per_part[min(per_part)].items() if g < D}
+    for k, dd in sorted(per_part.items()):
+        if {g: v for g, v in dd.items() if g < D} != ref:
+            bad.append(f"part {k}: statistics above the split depth differ")
+    M = sum(dd.get(D, (0, 0, 0))[0] for dd in per_part.values())
+    for k, dd in sorted(per_part.items()):
+        want = (M - 1 - k) // P + 1 if M > k else 0
+        if dd.get(D, (0, 0, 0))[0] != want:
+            bad.append(f"part {k}: {dd.get(D, (0, 0, 0))[0]} moves at the split depth, expected {want}")
+    return bad
+
+
+def summarize(d, P, G=None, kernel="dft5", legacy=False, split_depth=None):
+    """legacy=True accepts logs without a manifest line (runs made before the manifest existed).
+    The partition check needs the split depth: from the manifest, or split_depth for old logs."""
     tot = dict(dfs=0, gb=0, leaves=0, sec=0.0, cpu=0.0, restarts=0)
     configs = {}  # run configuration from the manifest line (all but the part index) -> parts
     elapsed, rss, per_part_sec = [], [], []
     depth = {}
-    issues = dict(missing=[], incomplete=[], bad=[], found=[], wrong_header=[], watchdog=[], mixed=[])
+    issues = dict(missing=[], incomplete=[], bad=[], found=[], wrong_header=[], watchdog=[], mixed=[], no_manifest=[],
+                  partition=[])
+    per_part = {}
     for k in range(P):
         p = os.path.join(d, f"part{k}.log")
         if not os.path.exists(p):
@@ -57,14 +80,18 @@ def summarize(d, P, G=None, kernel="dft5"):
                 argv[argv.index("--split") + 1] = "k"
             key = json.dumps(dict(man, argv=argv), sort_keys=True)
             configs.setdefault(key, []).append(k)
+        elif not legacy:
+            issues["no_manifest"].append(k)
         for key in tot:
             tot[key] += st.get(key, 0)
         per_part_sec.append(st.get("sec", 0.0))
         dm = re.search(r"^per depth \(.*?\): (.*)$", txt, re.M)
         if dm:
+            per_part[k] = {}
             for item in dm.group(1).split(";"):
                 g, vals = item.split(":")
                 a = [int(x) for x in vals.split(",")]
+                per_part[k][int(g)] = tuple(a)
                 acc = depth.setdefault(int(g), [0, 0, 0])
                 for i in range(3):
                     acc[i] += a[i]
@@ -82,6 +109,11 @@ def summarize(d, P, G=None, kernel="dft5"):
             name = re.sub(r"\(R\)|\(TM\)|CPU|@.*|\s+Processor", "", m.group(1))
             name = re.sub(r"\s+", " ", name).strip()
             models[name] = models.get(name, 0) + 1
+    if split_depth is None and configs:
+        split_depth = json.loads(next(iter(configs))).get("split_depth")
+    if P > 1 and not issues["missing"] and not issues["incomplete"]:
+        issues["partition"] = check_partition(per_part, P, split_depth) if len(per_part) == P else \
+            ([] if legacy else ["per-depth statistics missing in some parts"])
     if len(configs) > 1:  # parts run with different code, options or Singular versions
         issues["mixed"] = [sorted(v)[:5] for v in configs.values()]
     n = P - len(issues["missing"]) - len(issues["incomplete"]) - len(issues["wrong_header"])
@@ -98,7 +130,9 @@ def report(r):
     labels = dict(missing="missing", incomplete="no RESULT line (running or failed)",
                   bad="traceback/error", found="RESULT other than no circuit",
                   wrong_header="unexpected header", watchdog="WATCHDOG in",
-                  mixed="different run configurations (first parts of each)")
+                  mixed="different run configurations (first parts of each)",
+                  no_manifest="no manifest line (use --legacy for runs made before manifests)",
+                  partition="not a partition (check of the counts above and at the split depth)")
     for key, lst in r["issues"].items():
         if lst:
             lines.append(f"  {labels[key]}: {len(lst)}: {lst[:20]}{' ...' if len(lst) > 20 else ''}")
@@ -125,9 +159,11 @@ def report(r):
         lines.append("  " + "; ".join(f"{g}: {a[0]}, {a[1]}, {a[2]}" for g, a in sorted(r["depth"].items())))
     lines += ["", "LaTeX placeholders:",
               f"  Table I, Groebner bases:  {tex(tot['gb'])}",
-              f"  CPU hours (rounded):      ${round(h, -2):,.0f}$".replace(",", r"\,"),
+              (f"  CPU hours (rounded):      ${round(tot['cpu'] / 3600, -2):,.0f}$" if tot["cpu"] else
+               f"  elapsed hours (rounded, no CPU time in these logs): ${round(h, -2):,.0f}$").replace(",", r"\,"),
               f"  run record: {tex(tot['dfs'])} search nodes, {tex(tot['gb'])} Groebner bases, "
-              f"{tex(tot['restarts'])} restarts, {h:,.0f} hours"]
+              f"{tex(tot['restarts'])} restarts, {h:,.0f} hours elapsed"
+              + (f", {tot['cpu'] / 3600:,.0f} hours of CPU time" if tot["cpu"] else "")]
     return "\n".join(lines)
 
 
@@ -135,7 +171,8 @@ def main():
     d, P = sys.argv[1], int(sys.argv[2])
     G = int(sys.argv[sys.argv.index("--gates") + 1]) if "--gates" in sys.argv else None
     kernel = sys.argv[sys.argv.index("--kernel") + 1] if "--kernel" in sys.argv else "dft5"
-    r = summarize(d, P, G, kernel)
+    sd = int(sys.argv[sys.argv.index("--split-depth") + 1]) if "--split-depth" in sys.argv else None
+    r = summarize(d, P, G, kernel, legacy="--legacy" in sys.argv, split_depth=sd)
     print(report(r))
     sys.exit(0 if r["clean"] else 1)
 

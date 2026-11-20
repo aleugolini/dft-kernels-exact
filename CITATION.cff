@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or these logs, please cite the letter they accompany."
+title: "Exact additive complexity of small DFT kernels: code and logs"
+type: software
+version: "1.0"
+repository-code: "https://github.com/aleugolini/dft-kernels-exact"
+authors:
+  - family-names: Ugolini
+    given-names: Alessandro
+    affiliation: "Department of Engineering and Architecture, University of Parma, Italy"
+license: MIT
+keywords:
+  - discrete Fourier transform
+  - additive complexity
+  - linear circuits
+  - Gröbner bases

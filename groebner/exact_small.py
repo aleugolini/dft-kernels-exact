@@ -78,8 +78,10 @@ class Singular:
                                   stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                                   stderr=subprocess.STDOUT, text=True, bufsize=1)
         self.n = 0
-        for cmd in self.state:
-            self._exec(cmd)
+        for cmd in self.state:  # replay: same check as push(), state commands print nothing
+            out = self._exec(cmd)
+            if out:
+                raise RuntimeError("unexpected Singular output on replay:\n" + "\n".join(out) + "\ncommand: " + cmd[:500])
 
     def _exec(self, cmd):
         self.n += 1
@@ -152,7 +154,9 @@ def setup(kernel, G, char, omega, overz=False):
 
 
 def search(kernel, G, char=0, omega=None, show=3, sym2=False, split=(0, 1), split_depth=3,
-           rules=True, support=True, galois=False, overz=False, cert=None, manifest=None):
+           rules=True, support=True, galois=False, overz=False, cert=None, manifest=None, only_path=None):
+    """only_path: optional list of moves (kind, k, u, v); the search then follows only this sequence,
+    with all the rules and tests active (positive control: a known circuit must give a leaf)."""
     manifest = {} if manifest is None else manifest
     N, targets, nWmax, ring = setup(kernel, G, char, omega, overz)
     K = len(targets)
@@ -273,6 +277,9 @@ def search(kernel, G, char=0, omega=None, show=3, sym2=False, split=(0, 1), spli
                     if keep():
                         moves.append(("W", None, u, v))
 
+        if only_path is not None:  # positive control: keep only the next move of the given sequence
+            nxt = tuple(only_path[nG]) if nG < len(only_path) else None
+            moves = [m for m in moves if m == nxt]
         dd = depth.setdefault(nG + 1, [0, 0, 0])
         dd[0] += len(moves)
         path.append(None)

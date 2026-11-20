@@ -1,0 +1,16 @@
+progress: 3600 s, ~15.4% of this part, gb=4044569, path=1/1 3/15 7/19 1/1
+progress: 7200 s, ~30.6% of this part, gb=7997818, path=1/1 5/15 11/17 1/1
+progress: 10800 s, ~42.2% of this part, gb=12032554, path=1/1 7/15 6/15 1/1
+progress: 14400 s, ~54.9% of this part, gb=15817843, path=1/1 9/15 4/13 1/1
+progress: 18000 s, ~61.7% of this part, gb=19734528, path=1/1 10/15 4/12 1/1
+progress: 21600 s, ~66.1% of this part, gb=23611439, path=1/1 10/15 12/12 1/1
+progress: 25200 s, ~73.3% of this part, gb=27753388, path=1/1 12/15 1/10 1/1
+progress: 28800 s, ~77.3% of this part, gb=31602370, path=1/1 12/15 7/10 1/1
+progress: 32400 s, ~81.5% of this part, gb=35631772, path=1/1 13/15 3/9 1/1
+progress: 36000 s, ~87.5% of this part, gb=39874616, path=1/1 14/15 2/8 1/1
+progress: 39601 s, ~93.3% of this part, gb=43991632, path=1/1 15/15 1/7 1/1
+manifest: {"argv": ["dft5", "11", "cert12.jsonl.gz", "--split", "12", "48", "--split-depth", "4", "--sym2"], "python": "3.11.18", "restart_every": 50000, "singular": "~/conda/envs/singular/bin/Singular", "singular_version": "44100", "source": "exact_small.py", "source_sha256": "55718f8ad9157e5adbb28eb4e7a0b1c96909f721286453f65e59000ac673b896", "split_depth": 4, "wrapper": "cert_split.py"}
+dft5, at most 11 gates, over Q(omega)-bar, sym2=True, split=(12, 48): {'dfs': 986583, 'gb': 46194946, 'leaves': 0, 'sec': 41809.8, 'cpu': 41602.6, 'restarts': 1856}
+per depth (gate: moves, Groebner tests, rejected): 1: 1, 0, 0; 2: 15, 0, 0; 3: 210, 0, 0; 4: 69, 1, 0; 5: 1349, 136, 36; 6: 37667, 7832, 4422; 7: 733101, 370345, 255060; 8: 14074866, 14074866, 13601178; 9: 31741766, 31741766, 31741766
+RESULT: no circuit -> L > 11
+generation part 12 maxrss=44784KB elapsed=41811.71s

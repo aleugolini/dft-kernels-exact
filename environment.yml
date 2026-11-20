@@ -1,0 +1,11 @@
+# Environment of the runs (conda-forge). The cluster runs used Python 3.11 and Singular 4.4.1;
+# the small runs gave identical counts with another build of Singular 4.4.1 and Python 3.12.
+name: dft-kernels-exact
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - singular=4.4.1
+  - sympy
+  - c-compiler
+  - make

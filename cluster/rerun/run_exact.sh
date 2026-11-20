@@ -3,6 +3,7 @@
 # usage (from ~/dft/rerun):
 #   G=12 P=2048 D=6 OPTS="--sym2 --galois" sbatch -c 32 --output=$HOME/dft/rerun/g12/slurm_%j.out \
 #       run_exact.sh PART [PART ...]
+# DIR (optional): run directory under ~/dft/rerun (default g$G), e.g. for the cross-checks.
 # Parts whose log already has a RESULT line are skipped (resubmission after a time-out).
 # Memory: 1 GB per core; 2 GB of virtual memory per process; job-local watchdog (common.sh).
 #SBATCH --job-name=f5rerun
@@ -12,7 +13,7 @@
 #SBATCH --mem-per-cpu=1G
 #SBATCH --time=1-00:00:00
 : "${G:?}" "${P:?}" "${D:?}"
-cd $HOME/dft/rerun/g$G
+cd $HOME/dft/rerun/${DIR:-g$G}
 . $HOME/dft/rerun/common.sh
 ulimit -v 2097152
 export G P D OPTS PY CODE
